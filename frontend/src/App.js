@@ -1,9 +1,9 @@
 import './App.css';
-
+import CreateMail from "./components/CreateMail";
 function App() {
   return (
     <div className="App">
-      HELLO WORLD
+      <CreateMail />
     </div>
   );
 }
