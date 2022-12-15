@@ -2,7 +2,7 @@ import { CreateMailConstants } from "../../constants";
 
 export const changeOpen = (open) => {
     return {
-        type: CreateMailConstants.OPEN_CREATE_MAIL,
+        type: CreateMailConstants.CHANGE_OPEN,
         open: open,
     }
 };
